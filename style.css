@@ -1,0 +1,138 @@
+*{
+     margin: 0%;
+    padding: 0%;
+    }
+.container{
+    display: flex;
+    background-color: beige;
+    color:black;
+    padding: 3px;
+    justify-content: space-between;
+    }
+    .container .nav-child-1{
+        width: 80%;
+        font-size: larger;
+    
+    }
+    
+    .container .nav-child-2{
+        width:30%;
+        display: flex;
+    }
+    .container .nav-child-2 h2{
+        margin-left: 9px;
+        padding: 4px 8px;
+    }
+    .container .nav-child-1 a{
+       padding: 10px;
+    }
+    .container .nav-child-2 h2:hover{
+        background-color: grey;
+        color: #000;
+    }
+    .container .nav-child-1 a:hover{
+        background-color: grey;
+        color: #000;
+    }
+    .section-1-img {
+        height: 600px;
+        width: 100%;
+        background-image: url('./template-3-imgs/pexels-photo-443383.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .section-1-img h2{
+        display: flex;
+        justify-content: center;
+        padding: 250px;
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+        
+    }
+    .section-1-img h2 span{
+        background-color: rgb(84, 80, 80);
+        color: white;
+        padding: 13px;
+        font-size:xx-large;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    .section-2 h3{
+        margin: 50px;
+        font-size: xx-large;
+    }
+    .section-2-images{
+        display: flex;
+        padding: 5px 15px;
+        margin: 5px;
+        
+    }
+    .section-3 h3{
+       margin: 50px; 
+       font-size: xx-large;
+       
+    }
+    .section-3 p{
+        margin: 50px;
+        font-size: larger;
+        
+    }
+     .contact-sec{
+        display: flex;
+        margin: 50px;
+        padding: 2px 15px;
+        justify-content: center;
+     }
+     .contact-sec  button{
+        background-color: rgb(192, 187, 187);
+        color: white;
+        padding: 10px;
+        width: 250px;
+     }
+     .contact-sec {
+        padding: 0px 8px;
+        margin: auto 15px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: left;
+     }
+     .form-sec h3{
+        margin: 50px; 
+        font-size: xx-large;
+     }
+     .form-sec p{
+        margin: 50px; 
+        font-size: larger;
+     }
+     .form-sec{
+        display: block;
+     }
+    .info-sec{
+        margin-top: 10px;
+        padding: 22px;
+        width: 74%;
+        border: none;
+        border: 1px solid grey;
+        padding: 10px 135px;
+        font-size: 4;
+    } 
+    .button{
+        margin-top:10px;
+        padding: 10px 15px;
+        font-size: small;
+        color: white;
+        background-color: black;
+    }
+     .button-2{
+        margin-top: 10px;
+        padding: 10px 135px;
+        font-size: medium;
+     }
+     .section-5-img{
+        margin: 50px 20px;
+     }
+   
+    
